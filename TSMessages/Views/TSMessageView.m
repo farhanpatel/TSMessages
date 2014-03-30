@@ -364,6 +364,7 @@ canBeDismissedByUser:(BOOL)dismissingEnabled
     }
     
     currentHeight += TSMessageViewPadding;
+    currentHeight = 44;
     
     if (self.iconImageView)
     {
@@ -393,6 +394,7 @@ canBeDismissedByUser:(BOOL)dismissingEnabled
     }
     
     currentHeight += self.borderView.frame.size.height;
+    currentHeight = 44;
     
     self.frame = CGRectMake(0.0, self.frame.origin.y, self.frame.size.width, currentHeight);
     
